@@ -17,6 +17,7 @@
 		CC41A4B41D3DE1530070861D /* Note+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC41A4B21D3DE1530070861D /* Note+CoreDataProperties.swift */; };
 		CC41A4B51D3DE1530070861D /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC41A4B31D3DE1530070861D /* Note.swift */; };
 		CC41A4B71D3DE2630070861D /* AddNoteViewContorller.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC41A4B61D3DE2630070861D /* AddNoteViewContorller.swift */; };
+		CCA8EFF61D3F4F9E00A6F5DA /* NoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA8EFF51D3F4F9E00A6F5DA /* NoteViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		CC41A4B21D3DE1530070861D /* Note+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Note+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		CC41A4B31D3DE1530070861D /* Note.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
 		CC41A4B61D3DE2630070861D /* AddNoteViewContorller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddNoteViewContorller.swift; sourceTree = "<group>"; };
+		CCA8EFF51D3F4F9E00A6F5DA /* NoteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoteViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 				CC41A49B1D3DDEAD0070861D /* AppDelegate.swift */,
 				CC41A49D1D3DDEAD0070861D /* ViewController.swift */,
 				CC41A4B61D3DE2630070861D /* AddNoteViewContorller.swift */,
+				CCA8EFF51D3F4F9E00A6F5DA /* NoteViewController.swift */,
 				CC41A4B01D3DE0B90070861D /* CoreDataManager.swift */,
 				CC41A4B21D3DE1530070861D /* Note+CoreDataProperties.swift */,
 				CC41A4B31D3DE1530070861D /* Note.swift */,
@@ -150,6 +153,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCA8EFF61D3F4F9E00A6F5DA /* NoteViewController.swift in Sources */,
 				CC41A49E1D3DDEAD0070861D /* ViewController.swift in Sources */,
 				CC41A4AF1D3DDEC40070861D /* Notes.xcdatamodeld in Sources */,
 				CC41A4B11D3DE0B90070861D /* CoreDataManager.swift in Sources */,
