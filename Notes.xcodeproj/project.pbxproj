@@ -17,6 +17,7 @@
 		CC41A4B41D3DE1530070861D /* Note+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC41A4B21D3DE1530070861D /* Note+CoreDataProperties.swift */; };
 		CC41A4B51D3DE1530070861D /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC41A4B31D3DE1530070861D /* Note.swift */; };
 		CC41A4B71D3DE2630070861D /* AddNoteViewContorller.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC41A4B61D3DE2630070861D /* AddNoteViewContorller.swift */; };
+		CCA2D06E1D62153400A4A478 /* NoteViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCA2D06C1D62153400A4A478 /* NoteViewController.storyboard */; };
 		CCA8EFF61D3F4F9E00A6F5DA /* NoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA8EFF51D3F4F9E00A6F5DA /* NoteViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -33,6 +34,7 @@
 		CC41A4B21D3DE1530070861D /* Note+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Note+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		CC41A4B31D3DE1530070861D /* Note.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
 		CC41A4B61D3DE2630070861D /* AddNoteViewContorller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddNoteViewContorller.swift; sourceTree = "<group>"; };
+		CCA2D06D1D62153400A4A478 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/NoteViewController.storyboard; sourceTree = "<group>"; };
 		CCA8EFF51D3F4F9E00A6F5DA /* NoteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoteViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -74,6 +76,7 @@
 				CC41A4B21D3DE1530070861D /* Note+CoreDataProperties.swift */,
 				CC41A4B31D3DE1530070861D /* Note.swift */,
 				CC41A49F1D3DDEAD0070861D /* Main.storyboard */,
+				CCA2D06C1D62153400A4A478 /* NoteViewController.storyboard */,
 				CC41A4A21D3DDEAD0070861D /* Assets.xcassets */,
 				CC41A4A41D3DDEAD0070861D /* LaunchScreen.storyboard */,
 				CC41A4A71D3DDEAD0070861D /* Info.plist */,
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CC41A4A61D3DDEAD0070861D /* LaunchScreen.storyboard in Resources */,
+				CCA2D06E1D62153400A4A478 /* NoteViewController.storyboard in Resources */,
 				CC41A4A31D3DDEAD0070861D /* Assets.xcassets in Resources */,
 				CC41A4A11D3DDEAD0070861D /* Main.storyboard in Resources */,
 			);
@@ -181,6 +185,14 @@
 				CC41A4A51D3DDEAD0070861D /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		CCA2D06C1D62153400A4A478 /* NoteViewController.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCA2D06D1D62153400A4A478 /* Base */,
+			);
+			name = NoteViewController.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -312,6 +324,7 @@
 				CC41A4AC1D3DDEAD0070861D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
